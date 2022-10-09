@@ -8,6 +8,7 @@ const Equation = ({equation, knowns}) => {
     let regexMatches = [...equation.matchAll(regexForVariables)]
     let variables = []
 
+
     regexMatches.forEach(match => {
         match.forEach(m => {
             for (let i = 0; i < m.length; i++) {
@@ -17,11 +18,11 @@ const Equation = ({equation, knowns}) => {
             }
         })
     })
-    console.log(variables)
+    
     return (
         <div className='equationContainer'>
             <h2>{equation}</h2>
-            <p>Solution: {nerdamer(equation).solveFor('x').toString()}</p>
+            <p>Solution: {nerdamer(equation, knowns).solveFor('x').toString()}</p>
             <form className='equationInputs'>
                 {variables.map(variable => (
                     <div style={{textAlign: 'center', paddingBottom: 20}}>

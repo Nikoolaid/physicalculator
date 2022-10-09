@@ -2,11 +2,13 @@
 import * as React from 'react'
 import Container from '../components/Container'
 import Equation from '../components/Equation'
+import Navbar from '../components/Navbar'
 
 const Momentum = () => {
   return (
       <Container className='page'>
-        <Equation equation="x+2y=6" knowns={{x: 2}} />
+        <Navbar />
+        <Equation equation="x+2y=6" knowns={{y: 5}} />
       </Container>
   )
 }

@@ -1,6 +1,7 @@
 // Step 1: Import React
 import * as React from 'react'
 import Container from '../components/Container'
+import Navbar from '../components/Navbar'
 
 // const varsStyles = {
 //   display:"flex",
@@ -22,6 +23,7 @@ import Container from '../components/Container'
 const KinematicsPage = () => {
   return (
       <Container className='page'>
+        <Navbar />
       <div>
         <h1>Kinematics</h1>
         <p>"Kinematics is the study of motion of a system of bodies without directly considering the forces or potential fields affecting the motion. In other words, kinematics examines how the momentum and energy are shared among interacting bodies." - Science Direct</p>
