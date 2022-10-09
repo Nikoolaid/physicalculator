@@ -1,0 +1,15 @@
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding:"10px 400px 10px";
+}
+
+.equation {
+    display: flex;
+    flex-direction: column;
+}
+
+.rightCol {
+    padding: 25px;
+}

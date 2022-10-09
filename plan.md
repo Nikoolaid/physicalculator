@@ -9,7 +9,7 @@
 
 ## Components
 - Interactive Graph/Formula
-    - Interactive Formula (https://nerdamer.com/documentation.html)
+    - Interactive Formula (https://ne`rdamer.com/documentation.html)
 - Navigation
     - Page Title
     - Hamborger
