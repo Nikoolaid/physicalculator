@@ -1,6 +1,7 @@
 // Step 1: Import React
 import * as React from 'react'
 import Container from '../components/Container'
+import Equation from '../components/Equation'
 import Navbar from '../components/Navbar'
 
 // const varsStyles = {
@@ -27,18 +28,9 @@ const KinematicsPage = () => {
       <div>
         <h1>Kinematics</h1>
         <p>"Kinematics is the study of motion of a system of bodies without directly considering the forces or potential fields affecting the motion. In other words, kinematics examines how the momentum and energy are shared among interacting bodies." - Science Direct</p>
-      </div>
-      <div className="rightCol" >
-        EQUATION GOES HERE
-        <form className='equation'>
-          <input type="text"/> X initial
-          <input type="text"/> X final 
-          <input type="text"/> t initial
-          <input type="text"/> t final
-          <input type="text"/> a
-          <input type="text"/> v initial
-          <input type="text"/> v final
-        </form>
+        <p>The study of kinematics is often introduced through <b>kinematic formulas</b>. A good example of these would be distance compared to velocity. If you're traveling at a constant velocity, the distance you travel will just be velocity multiplied by the time you travel for.</p>
+        <Equation equation="d = v * t" />
+
       </div>
       </Container>
   )
