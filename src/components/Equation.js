@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import nerdamer, { setVar } from 'nerdamer'
 import 'nerdamer/all'
+import MathJax from 'react-mathjax';
 
 //equation should be a string, knowns should be an object with keys of the var name and values of the var value
 const Equation = ({equation, knowns}) => {
@@ -69,7 +70,7 @@ const Equation = ({equation, knowns}) => {
                     <p style={{color: 'red'}}>{error}</p>
                 )}
                 {variables.map(variable => (
-                    <div style={{textAlign: 'center', paddingBottom: 20}}>
+                    <div style={{textAlign: 'center', paddingBottom: 20, fontWeight: "500"}}>
                         <label for={variable}>{variable}</label> <br/>
                         <input type='text' id={variable} />
                     </div>

@@ -2,14 +2,83 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-    padding:"10px 400px 10px";
+    /* padding:"10px 400px 10px"; */
+    font-family: 'Courier New', monospace;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    
+}
+
+Credits {
+    position: absolute;
+    bottom: 0px;
+}
+
+body {
+    padding:0px;
+    margin:0px;
 }
 
 .equation {
     display: flex;
     flex-direction: column;
+    
+}
+
+.equationContainer * {
+    text-align: center;
+}
+
+.equationInputs {
+    text-align: center;
+}
+.equationInputs input[type=submit] {
+    border: 0px;
+    color: white;
+    background-color: black;
+    padding:5px 10px 5px;
+    border-radius: 5px;
+    font-family: 'Courier New', monospace;
+    font-size: 1em;
+}
+.equationInputs input[type=submit]:hover {
+    background-color: palevioletred;
+}
+input:focus{
+    outline:none;
+}
+input, textarea {
+    font-family: 'Courier New', monospace;
+    
 }
 
 .rightCol {
     padding: 25px;
+}
+
+.navbar a {
+    color:white;
+    font-style: normal;
+    padding: 10px;
+    text-transform: capitalize;
+}
+
+.navbar {
+    background-color: black;
+    padding: 10px;
+    position: relative;
+    top:0px;
+}
+
+.navbar a:hover {
+    font-weight: bold;
+    background-color: palevioletred;
+}
+
+.container > :not(.navbar ) {
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-left: auto;
+    margin-right: auto;
 }

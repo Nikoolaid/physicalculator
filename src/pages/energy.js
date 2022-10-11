@@ -8,6 +8,7 @@ const Energy = () => {
   return (
       <Container className='page'>
         <Navbar />
+        <div className='funcontent'></div>
         <p>When we talk about energy, we're usually either talking about potential or kinetic energy. Kinetic energy is the energy something has because it's in motion. This type of energy is proportional to it's mass, and proportional to the square of its velocity.</p>
 
         <Equation equation="e = m*v^2" />
