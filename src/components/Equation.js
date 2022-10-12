@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { Equation as EquationRenderer} from 'react-equation'
 import nerdamer, { setVar } from 'nerdamer'
 import 'nerdamer/all'
 //import MathJax from 'react-mathjax';
@@ -61,7 +62,9 @@ const Equation = ({equation, knowns}) => {
     
     return (
         <div className='equationContainer'>
-            <h2>{equation}</h2>
+            <h2>
+                <EquationRenderer value={equation}/>
+            </h2>
             {varToSolveFor !== null && (
                 <p>Solution: {varToSolveFor} = {nerdamer(equation, knownVars).solveFor(varToSolveFor).toString()}</p>
             )}
