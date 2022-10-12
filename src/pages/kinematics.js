@@ -27,7 +27,7 @@ const KinematicsPage = () => {
         <Navbar />
       <div>
         <h1>Kinematics</h1>
-        <p>"Kinematics is the study of motion of a system of bodies without directly considering the forces or potential fields affecting the motion. In other words, kinematics examines how the momentum and energy are shared among interacting bodies." - Science Direct</p>
+        <p>"Kinematics is the study of motion of a system of bodies without directly considering the forces or potential fields affecting the motion. In other words, kinematics examines how the momentum and energy are shared among interacting bodies." - <a href="https://www.sciencedirect.com/topics/physics-and-astronomy/kinematics">Science Direct</a></p>
         <p>Google defines kinematics as "the branch of mechanics concerned with the motion of objects without reference to the forces which cause the motion." It is the study of how stuff moves just taking into account positions, velocities, accelerations, etc. For example, consider how distance changes based on velocity. Since velocity is defined as the distance traveled per period of time, we just multiply the number of "periods of time" (seconds, minutes, etc) we've traveled and multiply that by the velocity.</p>
         <Equation equation="d = v * t" />
 
