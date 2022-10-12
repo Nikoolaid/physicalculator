@@ -4,6 +4,7 @@ import { Link } from 'gatsby'
 const Navbar = () => {
     return (
         <div className='navbar'>
+            <Link to="/">Home</Link>
             <Link to="/angular">Angular Stuff</Link>
             <Link to="/energy">Energy</Link>
             <Link to="/kinematics">Kinematics</Link>

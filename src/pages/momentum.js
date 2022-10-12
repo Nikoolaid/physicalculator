@@ -8,7 +8,7 @@ const Momentum = () => {
   return (
       <Container className='page'>
         <Navbar />
-        <Equation equation="x+2y=6z"/>
+        <p>Momentum</p>
       </Container>
   )
 }
