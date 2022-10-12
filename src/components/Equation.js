@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import nerdamer, { setVar } from 'nerdamer'
 import 'nerdamer/all'
-import MathJax from 'react-mathjax';
+//import MathJax from 'react-mathjax';
 
 //equation should be a string, knowns should be an object with keys of the var name and values of the var value
 const Equation = ({equation, knowns}) => {

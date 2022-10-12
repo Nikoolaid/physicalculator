@@ -5,7 +5,7 @@ import { Link } from 'gatsby'
 
 const Credits = () => {
     return (
-        <div className='creds'>
+        <div className='credits'>
             <p style={{fontSize:"0.75em"}}>"Alex Colwell & Nikolai Tan 2022"</p>
         </div>
     )

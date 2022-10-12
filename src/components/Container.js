@@ -3,10 +3,12 @@ import '../styles/containerStyles.css'
 import Credits from './Credits'
 
 const Container = ({children}) => {
-    return <div className="container">
-        {children} 
-        <Credits></Credits>
-    </div>
+    return (
+        <div className="container">
+            {children} 
+            <Credits />
+        </div>
+    )
 
     
 }
