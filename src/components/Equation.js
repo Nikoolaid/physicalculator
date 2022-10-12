@@ -10,7 +10,8 @@ const Equation = ({equation, knowns}) => {
     const [error, setError] = useState(null)
     const [varToSolveFor, setVarToSolveFor] = useState(null)
 
-    let regexForVariables = /[a-zA-Z]+/g;
+    // let regexForVariables = /[a-zA-Z+α+ω]+/g;
+    let regexForVariables = /[a-zA-Zα-ωΑ-Ω]+/g;
     let regexMatches = [...equation.matchAll(regexForVariables)]
     let variables = []
 

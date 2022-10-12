@@ -10,6 +10,15 @@
     
 }
 
+.rowy {
+    display:flex;
+    flex-direction: row;
+}
+
+.rowy .equationContainer {
+    padding:10px;
+}
+
 .credits {
     padding: 0 0 0 0 !important;
     margin: 0 !important;
